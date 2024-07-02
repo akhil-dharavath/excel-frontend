@@ -13,7 +13,7 @@ const App = () => {
     rowLabels.map(() => columnLabels.map(() => ({ value: "" })))
   );
 
-  const handleChange = (newData) => {
+  const handleChange = (newData) => { 
     // Find the changed cell
     for (let row = 0; row < newData.length; row++) {
       for (let column = 0; column < newData[row].length; column++) {
